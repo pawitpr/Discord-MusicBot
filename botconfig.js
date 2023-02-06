@@ -1,4 +1,5 @@
 module.exports = {
+  // Port = proccess.env.PORT
   Admins: ["UserID", "UserID"], // Admins of the bot, I don't know what this do. -Darren.
   ExpressServer: true, // If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", // Default prefix, Server Admins can change the prefix
