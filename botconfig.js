@@ -22,18 +22,18 @@ module.exports = {
   // If you get invalid oauth, make sure on the discord developer page you set the oauth url to something like: https://example.com/api/callback.
 
   Presence: {
-    status: "online", // You can show online, idle, and dnd
-    name: "Music", // The message shown
-    type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
+    status: "idle", // You can show online, idle, and dnd
+    name: "Music sunega ?", // The message shown
+    type: "STREAMING", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
   // You need a lavalink server for this bot to work!!!!
   // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
   Lavalink: {
     id: "Main", //- Used for indentifier. You can set this to whatever you want.
-    host: "", //- The host name or IP of the lavalink server.
+    host: "https://pwit-bot.onrender.com", //- The host name or IP of the lavalink server.
     port: 80, // The port that lavalink is listening to. This must be a number!
-    pass: "", //- The password of the lavalink server.
+    pass: "9175861073", //- The password of the lavalink server.
     secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.
     retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
     retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
